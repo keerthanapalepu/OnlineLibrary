@@ -1,0 +1,323 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color: black;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:black;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*----------------------------------INDEX---------------------------------*/
+
+.wrapper
+{
+    height: 720px;
+    width: 1536px;
+    /*background-color:blue; */
+}
+header
+{
+height: 129px;
+width: 1534px;
+background-color: black;
+}
+section
+{
+   height: 420px;
+   width: 1534px;
+   background-color:gray;
+}
+footer
+{
+    height: 1000px;
+    width: 1536px;
+    background-color: rgb(3, 3, 3);
+}
+.logo 
+{
+    float: left;
+    padding-left: 40px;
+}
+.logo img
+{
+    padding-left: 50px;
+}
+li a
+{
+     color: aqua;
+     text-decoration: none;
+}
+ /*nav{
+    float: right;
+    word-spacing: 30px;
+    padding:30px;
+}
+nav li
+{
+    display : inline-block;
+    line-height: 70px;
+}*/
+
+section .sec_img
+{
+    height: 550px  ;
+    margin-top: 0px;
+    background-image: url("image/home.jpg");
+
+
+}
+
+/*--------------------------------add book---------------------------*/
+.addbook_img
+{
+    height: 800px;
+    margin-top: 0px;
+    background-image: url("image/3.jpg") ;
+}
+
+.box1
+{
+    height: 700px;
+    width: 550px;
+    background-color: black;
+    margin: 70px;
+    opacity: .7;
+    color: white;
+    padding:  20px;
+}
+form .addbook
+{
+    margin: auto 70px;
+}
+
+input
+{
+    height: 25px;
+    width: 300px;
+}
+/*-------------------------------------add magazine----------------------------------*/
+.addmagazine_img
+{
+    height: 800px;
+    margin-top: 0px;
+    background-image: url("image/pic.jpg") ;
+}
+
+.box1
+{
+    height: 500px;
+    width: 550px;
+    background-color: black;
+    margin: 70px;
+    opacity: .7;
+    color: white;
+    padding:  20px;
+}
+form .addmagazine
+{
+    margin: auto 70px;
+}
+
+input
+{
+    height: 25px;
+    width: 300px;
+}
+/*------------------------------add article---------------------------------*/
+.addarticle_img
+{
+    height: 800px;
+    margin-top: 0px;
+    background-image: url("image/art.jpg") ;
+}
+
+.box1
+{
+    height: 700px;
+    width: 550px;
+    background-color: black;
+    margin: 70px;
+    opacity: .7;
+    color: white;
+    padding:  20px;
+}
+form .addarticle
+{
+    margin: auto 70px;
+}
+
+input
+{
+    height: 25px;
+    width: 300px;
+}
+/*------------------------------------add admin----------------------------------------------*/
+.addadmin_img
+{
+    height: 800px;
+    margin-top: 0px;
+    background-image: url("image/12.jpg") ;
+}
+
+.box1
+{
+    height: 380px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.966);
+    margin: 70px;
+    opacity: .7;
+    color: white;
+    padding:  20px;
+}
+form .addadmin
+{
+    margin: auto 70px;
+}
+
+input
+{
+    height: 25px;
+    width: 300px;
+}
+/*------------------------------------------login-------------------------------------------*/
+.log_img
+{
+    height: 740px;
+    margin-top: 0px;
+    background-image: url("image/1.jpg") ;
+}
+
+.box1
+{
+    height: 400px;
+    width: 550px;
+    background-color: black;
+    margin: 70px;
+    opacity: .7;
+    color: white;
+    padding:  20px;
+}
+form .login
+{
+    margin: auto 70px;
+}
+
+input
+{
+    height: 25px;
+    width: 300px;
+}
+/*---------------------------------------------registration-------------------------------*/
+.reg_img
+{
+    height: 740px;
+    margin-top: 0px;
+    background-image: url("image/1.jpg") ;
+}
+
+.box2
+{
+    height: 400px;
+    width: 550px;
+    background-color: black;
+    margin: 70px;
+    opacity: .7;
+    color: white;
+    padding:  20px;
+}
+form .registration
+{
+    margin: auto 70px;
+}
+
+input
+{
+    height: 25px;
+    width: 300px;
+}
+
