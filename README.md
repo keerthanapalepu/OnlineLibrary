@@ -14,9 +14,14 @@ This project manages and stores book info in Relational Database using **PHP** a
 ## About the project
 
 **CRUD operations** on MySQL database are performed with the help of PHP, which can only be handled by the admin.
-1. Create/Update![image](https://user-images.githubusercontent.com/98457650/180203052-839691c3-c1a3-4196-9e15-06147b0e2118.png)
-2. Read![image](https://user-images.githubusercontent.com/98457650/180203349-dc0a371b-85b8-4b9a-8cc0-bf15b929c494.png)
-3. Delete![image](https://user-images.githubusercontent.com/98457650/180203591-45bbe649-0ebe-4508-9192-a27a2d96c352.png)
+1. Create/Update
+![image](https://user-images.githubusercontent.com/98457650/180203052-839691c3-c1a3-4196-9e15-06147b0e2118.png)
+
+2. Read
+![image](https://user-images.githubusercontent.com/98457650/180203914-a96afc7c-41ba-4776-b303-ff27c2cdf4c1.png)
+
+3. Delete
+![image](https://user-images.githubusercontent.com/98457650/180203591-45bbe649-0ebe-4508-9192-a27a2d96c352.png)
 
 The existence of this session will state the user **authentication status**. After authentication, the PHP $_SESSION super global variable will contain the user id. That is, the $_SESSION[“member_id”] is set to manage the logged-in session.  
 
