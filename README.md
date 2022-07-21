@@ -15,15 +15,18 @@ This project manages and stores book info in Relational Database using **PHP** a
 
 **CRUD operations** on MySQL database are performed with the help of PHP, which can only be handled by the admin.
 1. Create/Update
-![image](https://user-images.githubusercontent.com/98457650/180203052-839691c3-c1a3-4196-9e15-06147b0e2118.png)
+![image](https://user-images.githubusercontent.com/98457650/180205409-6102f67c-7743-4676-8f57-361b07544419.png)
 
 2. Read
-![image](https://user-images.githubusercontent.com/98457650/180203914-a96afc7c-41ba-4776-b303-ff27c2cdf4c1.png)
+![image](https://user-images.githubusercontent.com/98457650/180205205-15005260-860a-484d-8719-a524cb03fe9a.png)
 
 3. Delete
-![image](https://user-images.githubusercontent.com/98457650/180203591-45bbe649-0ebe-4508-9192-a27a2d96c352.png)
+![image](https://user-images.githubusercontent.com/98457650/180204262-876461b0-62bf-44b9-93df-0b9110802f22.png)
 
 The existence of this session will state the user **authentication status**. After authentication, the PHP $_SESSION super global variable will contain the user id. That is, the $_SESSION[“member_id”] is set to manage the logged-in session.  
+![image](https://user-images.githubusercontent.com/98457650/180204954-0ed1e572-91fa-4fb9-bacf-7e7e6e130e4b.png)![image](https://user-images.githubusercontent.com/98457650/180205044-cd375527-ac1a-41a6-babe-98dc2a17ba6d.png)
+
+
 
 The user or administrator can input the type of book/magazine/article he is looking for and then search for it by entering the name/id/author.
 ![image](https://user-images.githubusercontent.com/98457650/180199369-fc4058d3-538f-4152-8807-bb4279a97d09.png)
