@@ -17,8 +17,9 @@ This project manages and stores book info in Relational Database using x**PHP** 
 
 The existence of this session will state the user **authentication status**. After authentication, the PHP $_SESSION super global variable will contain the user id. That is, the $_SESSION[“member_id”] is set to manage the logged-in session.  
 
-The user or administrator can input the type of book/magazine/article he is looking for and then search for it by entering the name/id/author.
-![image](https://user-images.githubusercontent.com/98457650/180198878-a2bc83f3-6737-4c11-8020-b5506b4c273c.png)
+The user or administrator can input the type of book/magazine/article he is looking for and then search for it by entering the name/id/author.
+![image](https://user-images.githubusercontent.com/98457650/180199369-fc4058d3-538f-4152-8807-bb4279a97d09.png)
+
 ![image](https://user-images.githubusercontent.com/98457650/180198805-ca18b12e-b27f-44d5-92b5-51fa013205ee.png)
 
 
